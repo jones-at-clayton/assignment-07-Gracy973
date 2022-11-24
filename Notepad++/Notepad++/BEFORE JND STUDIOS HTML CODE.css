@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>JND STUDIOS</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	
+	<header>
+	JND STUDIOS
+	<!-- Created by Juliana Dunn -->
+	</header>
+	
+	<nav>
+		<ul>
+			<li>About Me</li>
+			<li>Sketches</li>
+			<li>Completed Works</li>
+			<li>Comissions</li>
+		</ul>
+	</nav>
+	
+	<img src="PigArt.jpg" alt= "A whimsical picture of a pig" width="480" height="480">
+	
+	<main>
+		  <p>This is a website to display the art work of Juliana Dunn. The about me section display's information about the artist. 
+		The sketches and completed works shows some of the art works the artist previously made. The comissions page explains the artists 
+		standards for requested works and how you can contact her.</p>
+	</main>
+	
+	<footer>
+		jdunn12@student.Clayton.edu 9/11/2022
+	</footer>
+</body>
+</html>

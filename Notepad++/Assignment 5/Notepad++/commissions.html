@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>JND STUDIOS</title>
+	<link rel="stylesheet" href = "styles.css" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	
+	<header>
+	<h1>Art Fever</h1>
+	<!-- Created by Juliana Dunn -->
+	</header>
+	
+	<nav>
+		<ul>
+            <li><a href="NewJNDSTUDIOS.html"> Home</a></li>
+           <li><a href="AboutMe.html"> About Me</a></li>
+			<li><a href="Sketches.html">Sketches</a></li>
+            <li><a href="CompletedWorks.html">Completed Works</a></li>
+            <li><a href="commissions.html">Commissions</a></li>
+		</ul>
+	</nav>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Commission Information</legend>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+                <label for="email_addr">Email</label>
+                <input type="email" name="email_addr" id="email_addr">
+                <label for="street_addr">Address</label>
+                <input name="street_addr" id="street_addr">
+            </fieldset>
+            
+            <fieldset>
+                <legend>Delivery Preferences</legend>
+                <input type="radio" name="delivery" value="email" id="delivery_email">
+                <label for="delivery_email">Email</label>
+                <input type="radio" name="delivery" value="postal" id="delivery_postal">
+                <label for="delivery_postal">Postal Delivery</label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Commission Options</legend>
+                <input type="checkbox" name="headshot" value="commission" id="headshot_commission">
+                <label for="headshot_commission">Headshot $40</label>
+                <input type="checkbox" name="halfbody" value="commission" id="halfbody_commission">
+                <label for="halfbody_commission">Half Body $70</label>
+                <input type="checkbox" name="fullbody" value="commission" id="fullbody_commission">
+                <label for="fullbody_commission">Full Body $100</label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Survey</legend>
+                <label for="referral">How did you hear about this company?</label>
+                <select id="referral">
+                    <option>Friend</option>
+                    <option>Youtube</option>
+                    <option>Flyer</option>  
+                </select>
+            </fieldset>
+            <input type="submit" value="Submit">
+            <input type="reset" Value="Reset Form Fields">
+        
+        </form>
+    </main>
+    <footer>
+		jdunn12@student.Clayton.edu 10/23/2022
+	</footer>
+    </body>
+</html>
